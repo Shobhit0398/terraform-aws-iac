@@ -1,21 +1,7 @@
-Local .terraform folder containing binaries and providers
-
+# Terraform
 .terraform/
-.terraform.lock.hcl
-
-Local state files (can contain secrets!)
-
 *.tfstate
-*.tfstate.backup
-*.tfstate.lock.info
-
-Sensitive variables
-
-*.tfvars
-*.tfvars.json
-override.tf
-override.tf.json
-
-Crash logs
-
+*.tfstate.*
+terraform.tfstate.backup
+.terraform.lock.hcl
 crash.log
